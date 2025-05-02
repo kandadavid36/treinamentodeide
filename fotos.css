@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+#album{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5%;
+    overflow: hidden;
+    list-style: none;
+}#album li{
+    float: left;
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    -webkit-transition: all .4s ease-in;
+ }
+ #album li span{
+     opacity: 0;
+     color: #ffffff;
+     text-shadow: black 1px 1px 1px;
+     background-color: rgba(0,0,0,.3);
+     font-size: 9pt;
+     line-height: 370px;
+     padding: 1%;
+ }
+ #album li#foto01:hover{
+     background-size: 100% 100%;
+ }
+#album li#foto02:hover{
+    background-size: 100% 100%;
+}
+#album li#foto03:hover{
+    background-size: 100% 100%;
+}
+#album li#foto04:hover{
+    background-size: 100% 100%;
+}
+#album li#foto05:hover{
+    background-size: 100% 100%;
+}
+#album li#foto06:hover{
+    background-size: 100% 100%;
+}
+#album li:hover {
+    -webkit-transform:scale(1.5) ;
+}
+#album li:hover span{
+    opacity: 1;
+}
+
+ #album #foto01{
+     background:url("../_imagens/m1.jpg") no-repeat;
+     background-position: 50% 50%;
+     background-size: 100% 100%;
+     background-color: #ffffff;
+ }
+#album #foto02{
+    background:url("../_imagens/m2.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}
+#album #foto03{
+    background:url("../_imagens/m3.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}
+#album #foto04{
+    background:url("../_imagens/m4.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}
+#album #foto05{
+    background:url("../_imagens/m5.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}
+#album #foto06{
+    background:url("../_imagens/m6.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    background-color: #ffffff;
+}

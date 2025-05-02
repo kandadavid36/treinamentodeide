@@ -1,0 +1,11 @@
+@charset "UTF-8";
+#frame-espc{
+	width: 30%;
+	
+    height: 270px;
+    border: none;
+    overflow: hidden;
+}
+#frame-espc::-webkit-scrollbar {
+    display: none;
+}
